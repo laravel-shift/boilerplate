@@ -37,7 +37,8 @@ Attributes that can be used with this component :
 | options                    | array               | null      | Associative array of options                                                                             |
 | selected                   | string &#124; array | null      | A string or an array of the selected options                                                             |
 | ajax                       | string              | null      | Ajax URL to call                                                                                         |
-| tags                       | boolean             | false     | Allows to create new option from text input. Set `minimum-results-for-search=0` for non-multiple select |
+| ajax-params                | array               | []        | Array of additional ajax parameters                                                                      |
+| tags                       | boolean             | false     | Allows to create new option from text input. Set `minimum-results-for-search=0` for non-multiple select  |
 | model                      | string              | null      | Model to use to fill the list by using a generic ajax call, [see below](#model)                          |
 | multiple                   | boolean             | false     | Set to true if select is multiple                                                                        |
 | allow-clear                | boolean             | false     | Set to true to allow selection clear                                                                     |
@@ -45,7 +46,7 @@ Attributes that can be used with this component :
 | max-length                 | integer             | 10        | When using the `model` attribute, defines the maximum length of the result list                          |
 | minimum-input-length       | integer             | 0         | Minimum search term length before showing the options, efficient with large data sets                    |
 | minimum-results-for-search | integer             | 10        | Minimum number of results required to display the search box                                             |
-| group-class                | string              | null      | Additionnal class that will be added to form-group                                                       | 
+| group-class                | string              | null      | Additional class that will be added to form-group                                                        | 
 | group-id                   | string              | null      | ID that will be added to form-group                                                                      | 
 
 All of the attributes that are not in the list above will be added as attributes to the input field :
@@ -80,6 +81,12 @@ The controller will be called with the type "POST" and the following request par
 * `q` : Contains the same contents as term.
 * `_type`: A "request type". Will usually be query, but changes to query_append for paginated requests.
 * `page` : The current page number to request. Only sent for paginated (infinite scrolling) searches.
+
+Additional ajax parameters can be sent using the `ajax-params` attribute.
+
+```html
+<x-boilerplate::select2 name="example" :ajax="route('select2')" :ajax-params="['extra' => 'paramValue']" />
+```
 
 The controller must return selectable options in json format with this structure :
 
