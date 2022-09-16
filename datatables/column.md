@@ -38,24 +38,25 @@ public function columns(): array
 } 
 ```
 
-| method                          | description                         |
-|---------------------------------|-------------------------------------|
-| [add](#add)                     | Adds a new column                   |
-| [data](#data)                   | Links the column to an existing Datasource field |
-| [name](#name)                   | Relation name to use for eager loading relationships |
-| [filter](#filter)               | Implements a custom search for a specific column |
-| [filterOptions](#filteroptions) | Select options for the column filter |
-| [filterType](#filtertype)       | Select the type of the filter to apply |
-| [order](#order)                 | Allow to set a specific order query |
-| [fromNow](#fromnow)             | For dates, replace the date by a “from now” text |
+| method                          | description                                            |
+|---------------------------------|--------------------------------------------------------|
+| [add](#add)                     | Adds a new column                                      |
+| [data](#data)                   | Links the column to an existing Datasource field       |
+| [name](#name)                   | Relation name to use for eager loading relationships   |
+| [filter](#filter)               | Implements a custom search for a specific column       |
+| [filterOptions](#filteroptions) | Select options for the column filter                   |
+| [filterType](#filtertype)       | Select the type of the filter to apply                 |
+| [order](#order)                 | Allow to set a specific order query                    |
+| [fromNow](#fromnow)             | For dates, replace the date by a “from now” text       |
 | [dateFormat](#dateformat)       | For dates, will replace the date by the localized date |
-| [notSearchable](#notsearchable) | Disables search (and filter) of the column |
-| [notSortable](#notsortable)     | Disables the sorting of the column  |
-| [notOrderable](#notorderable)   | Alias of [notSortable](#notsortable) |
-| [actions](#actions)             | Specific method to add actions buttons as a string |
-| [class](#class)                 | Sets the column class               |
-| [width](#width)                 | Sets the column width               |
-| [hidden](#hidden)               | Hide the column                     |
+| [notSearchable](#notsearchable) | Disables search (and filter) of the column             |
+| [notSortable](#notsortable)     | Disables the sorting of the column                     |
+| [notOrderable](#notorderable)   | Alias of [notSortable](#notsortable)                   |
+| [actions](#actions)             | Specific method to add actions buttons as a string     |
+| [tooltip](#tooltip)             | Displays a tooltip when hovering over the column title |
+| [class](#class)                 | Sets the column class                                  |
+| [width](#width)                 | Sets the column width                                  |
+| [hidden](#hidden)               | Hide the column                                        |
 
 ---
 
@@ -244,6 +245,14 @@ Or use the [`Button` class](button)
             ->make(),
     ]);
 })
+```
+
+## tooltip
+
+Displays a tooltip when hovering over the column title
+
+```php
+->tooltip('My tooltip content')
 ```
 
 ## class
