@@ -26,7 +26,6 @@ Attributes that can be used with this component :
 
 | Option | Type | Default | Description |
 | --- | --- | --- | --- |
-| url | string | null | Input name (required) |
 | route | mixed | null | Route to use for action, can be a string or an array containing route and values |
 | method | string | post | Form method to use |
 | files | boolean | false | Set to true if you have files to upload in your form |
