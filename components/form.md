@@ -15,7 +15,7 @@ permalink: /components/form
 Will render
 
 ```html
-<form method="POST" action="" accept-charset="UTF-8"><input name="_token" type="hidden" value="....">
+<form method="POST"><input name="_token" type="hidden" value="....">
     // your form here...
 </form>
 ```
