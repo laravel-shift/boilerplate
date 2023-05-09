@@ -16,6 +16,8 @@ Will render
 
 > If you have installed the package [sebastien/boilerplate-media-manager](https://github.com/sebastienheyd/boilerplate-media-manager), the media manager will be automatically added to TinyMCE for images and documents.
 
+> See [Generate text with GPT](/howto/gpt) documentation if you want to add the feature to TinyMCE.
+
 ## Value
 
 The value can be set by using slot or the value attribute
