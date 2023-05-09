@@ -36,7 +36,7 @@ Other packages to extend the features :
 ## Features
 
 * Configurable [backend theme](https://sebastienheyd.github.io/boilerplate/howto/change-theme) and [components](https://sebastienheyd.github.io/boilerplate/components/) for [AdminLTE 3](https://adminlte.io/docs/3.0/)
-* [Text generation with GPT in TinyMCE](/howto/gpt) with the OpenAI API 
+* [Text generation with GPT in TinyMCE](https://sebastienheyd.github.io/boilerplate/howto/gpt) with the OpenAI API 
 * Css framework [Bootstrap 4](https://getbootstrap.com/)
 * Icons by [Font Awesome 5](https://fontawesome.com/)
 * Role-based permissions support by [santigarcor/laratrust](https://github.com/santigarcor/laratrust)
