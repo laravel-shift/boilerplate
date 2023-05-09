@@ -14,8 +14,8 @@ permalink: /
 [![Nb downloads](https://img.shields.io/packagist/dt/sebastienheyd/boilerplate.svg?style=flat-square)](https://packagist.org/packages/sebastienheyd/boilerplate)
 [![MIT License](https://img.shields.io/github/license/sebastienheyd/boilerplate.svg?style=flat-square)](license.md)
 
-This package serves as a basis for quickly creating a back-office. 
-It includes profile creation and his management, user management, roles, permissions and log viewing.
+This package serves as a basis for quickly creating a back-office.
+It includes profile creation and his management, user management, roles, permissions, log viewing and ready to use [components](https://sebastienheyd.github.io/boilerplate/components/).
 
 It also makes it easy to add other packages to extend the features, have a look to
 [sebastienheyd/boilerplate-packager](https://github.com/sebastienheyd/boilerplate-packager) to quickly build your own
@@ -36,16 +36,17 @@ Other packages to extend the features :
 ## Features
 
 * Configurable [backend theme](https://sebastienheyd.github.io/boilerplate/howto/change-theme) and [components](https://sebastienheyd.github.io/boilerplate/components/) for [AdminLTE 3](https://adminlte.io/docs/3.0/)
+* [Text generation with GPT in TinyMCE](/howto/gpt) with the OpenAI API 
 * Css framework [Bootstrap 4](https://getbootstrap.com/)
 * Icons by [Font Awesome 5](https://fontawesome.com/)
 * Role-based permissions support by [santigarcor/laratrust](https://github.com/santigarcor/laratrust)
-* Forms & Html helpers by [laravelcollective/html](https://github.com/laravelcollective/html)
+* Forms & Html helpers by [spatie/laravel-html](https://github.com/spatie/laravel-html)
 * Menu dynamically builded by [lavary/laravel-menu](https://github.com/lavary/laravel-menu)
-* Menu items activated by [hieu-le/active](https://github.com/letrunghieu/active)
+* Menu items activated by [sebastienheyd/active](https://github.com/sebastienheyd/active)
 * Server-side datatables methods provided by [yajra/laravel-datatables](https://yajrabox.com/docs/laravel-datatables)
 * Image manipulation by [intervention/image](https://github.com/intervention/image)
 * Logs visualization by [arcanedev/log-viewer](https://github.com/ARCANEDEV/LogViewer)
-* Gravatar import by [thomaswelton/laravel-gravatar](https://github.com/thomaswelton/laravel-gravatar)
-* Default languages support by [overtrue/laravel-lang](https://github.com/overtrue/laravel-lang) and [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang)
+* Gravatar import by [creativeorange/gravatar](https://github.com/creativeorange/gravatar)
+* Default languages from [laravel-lang/lang](https://github.com/Laravel-Lang/lang)
 * Javascript session keep-alive
 * [Localized](https://github.com/sebastienheyd/boilerplate/tree/master/src/resources/lang)
