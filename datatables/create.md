@@ -7,6 +7,8 @@ nav_order: 5
 
 # Create a DataTable
 
+**Boilerplate version >= 7.10**
+
 The [datatable component](../components/datatable) uses a class to operate. The class will specify the [options](options) of the table, the [data source](datasource), and the [columns](column) to be used.
 
 This class can be generated via an artisan command.

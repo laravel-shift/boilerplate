@@ -7,6 +7,8 @@ permalink: /howto/gpt
 # Generate text with GPT in TinyMCE
 {: .no_toc }
 
+**Boilerplate version >= 7.21**
+
 The OpenAI API provides developers with access to state-of-the-art AI models that can be integrated into their applications. 
 
 The Boilerplate package simplifies the process of using the OpenAI API by providing a convenient interface for making requests and handling responses through a button in TinyMCE.

@@ -14,6 +14,7 @@ root of the Laravel project.
 | --- | --- |
 | [app.php](/configuration/app) | Main configuration file. |
 | [auth.php](/configuration/auth) | Registration / Authentication configuration file. |
+| [dashboard.php](/configuration/dashboard) | Dashboard configuration file. |
 | [laratrust.php](/configuration/laratrust) | Roles and permissions configuration file. |
 | [menu.php](/configuration/menu) | Main menu configuration file. |
 | [theme.php](/configuration/theme) | Backend theme configuration file. |

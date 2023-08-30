@@ -6,6 +6,8 @@ permalink: /components/datatable
 
 # DataTable
 
+**Boilerplate version >= 7.10**
+
 ```html
 <x-boilerplate::datatable name="users" />
 ```
