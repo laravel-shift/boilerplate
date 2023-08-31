@@ -30,22 +30,6 @@ Button::add()
 | [attributes](#attributes) | Sets HTML attributes to the button |
 | [make](#make) | Renders the button |
 
-## Button aliases
-
-```php
-Button::show('route.to.resource.show', $resource);
-```
-
-```php
-Button::edit('route.to.resource.edit', $resource);
-```
-
-```php
-Button::delete('route.to.resource.destroy', $resource);
-```
-
-> `Button::delete` will show a modal to confirm the deletion. You can set another confirmation message by using the [`Datatable::locale()` method](options#locale).
-
 ---
 
 ## add
@@ -131,3 +115,21 @@ Renders the button.
 ```php
 ->make()
 ```
+
+---
+
+## Button aliases
+
+```php
+Button::show('route.to.resource.show', $resource);
+```
+
+```php
+Button::edit('route.to.resource.edit', $resource);
+```
+
+```php
+Button::delete('route.to.resource.destroy', $resource);
+```
+
+> `Button::delete` will show a modal to confirm the deletion. You can set another confirmation message by using the [`Datatable::locale()` method](options#locale).

@@ -11,6 +11,8 @@ nav_order: 10
 
 The dashboard is composed of configurable widgets. It is possible to generate these widgets using an artisan command.
 
+---
+
 ## Artisan Command
 
 To generate a new widget for the dashboard, you can use the following artisan command:
@@ -31,6 +33,23 @@ Using this command with this example, three files will be generated:
 - **/resources/views/dashboard/widgets/my-awesome-widget.blade.php**: the view of the widget that will be rendered
 - **/resources/views/dashboard/widgets/my-awesome-widgetEdit.blade.php**: the view of the widget parameter editing form
 
+---
+
+## For packages developers
+
+By default, datatable classes are placed in the folder `app/Dashboard`
+
+But you can declare your own widgets classes within your package service provider by using the `boilerplate.dashboard.widgets` singleton :
+
+```
+public function boot()
+{
+    app('boilerplate.dashboard.widgets')->registerWidget(MyPackageFirstWidget::class, MyPackageSecondWidget::class);
+}
+```
+
+---
+
 ## Next step
 
-> [How to use the generated widget](widget_usage.md)
+> [How to use the generated widget](usage)

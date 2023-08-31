@@ -13,6 +13,8 @@ The [datatable component](../components/datatable) uses a class to operate. The 
 
 This class can be generated via an artisan command.
 
+---
+
 ## Generating a DataTable class
 
 To generate a new class that can be used with the component, you can use the artisan command:
@@ -35,15 +37,22 @@ php artisan boilerplate:datatable users --model="App\Models\User"
 
 > Defining a model as data source will automatically scan the database to define the visible fields as datatable columns. You can avoid this scan by using the `--nodb` option, in this case the generator will only use the fields declared in the model class.
 
-### For package developpers
+---
 
-By default, datatable classes are placed in the folder `app\Datatables`
+## For package developpers
 
-But you can declare your own datatable class within your package by using the `boilerplate.datatables` singleton :
+By default, generated datatable classes are placed in the folder `app\Datatables`
+
+But you can declare your own datatable class within your package service provider by using the `boilerplate.datatables` singleton :
 
 ```
-app('boilerplate.datatables')->registerDatatable(\MyVendoName\MyPackage\MyModelDatatable::class); 
+public function boot()
+{
+    app('boilerplate.datatables')->registerDatatable(\MyVendoName\MyPackage\MyModelDatatable::class);
+} 
 ```
+
+---
 
 ## Calling the datatable
 
@@ -67,6 +76,8 @@ Then call the datatable :
 ```html
 <x-boilerplate::datatable name="example" />
 ```
+
+---
 
 ## Next step
 

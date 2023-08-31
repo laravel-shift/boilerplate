@@ -271,6 +271,8 @@ $this->locale([
 
 > Default locale can be found in the [`datatable.php`](https://github.com/sebastienheyd/boilerplate/blob/master/src/resources/lang/en/datatable.php) lang file. 
 
+---
+
 ## Next step
 
 > [See columns definition](column)

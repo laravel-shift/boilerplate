@@ -13,3 +13,4 @@ The datatable component uses a class to operate. The class will specify the conf
 
 > See the [datatable component](../components/datatable)
 
+<a href="/assets/img/components/datatable.png" class="img-link"><img src="/assets/img/components/datatable.png" style="max-width:100%;height:400px;margin-right:.5rem"/></a>

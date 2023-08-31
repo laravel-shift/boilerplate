@@ -26,17 +26,19 @@ Other packages to extend the features :
 * [sebastienheyd/boilerplate-email-editor](https://github.com/sebastienheyd/boilerplate-email-editor)
 
 ---
-<a href="assets/img/register.png" class="img-link"><img src="assets/img/register.png" style="max-width:100%;height:100px;margin-right:.5rem"/></a>
-<a href="assets/img/login.png" class="img-link"><img src="assets/img/login.png" style="max-width:100%;height:100px;margin-right:.5rem"/></a>
-<a href="assets/img/add_user.png" class="img-link"><img src="assets/img/add_user.png" style="max-width:100%;height:100px;margin-right:.5rem" /></a>
-<a href="assets/img/role.png" class="img-link"><img src="assets/img/role.png" style="max-width:100%;height:100px;margin-right:.5rem" /></a>
-<a href="assets/img/logs.png" class="img-link"><img src="assets/img/logs.png" style="max-width:100%;height:100px;margin-right:.5rem" /></a>
-<a href="assets/img/theme_red.png" class="img-link"><img src="assets/img/theme_red.png" style="max-width:100%;height:100px;margin-right:.5rem" /></a>
+<a href="assets/img/register.png" class="img-link"><img src="assets/img/register.png" style="max-width:100%;height:90px;margin-right:.5rem"/></a>
+<a href="assets/img/login.png" class="img-link"><img src="assets/img/login.png" style="max-width:100%;height:90px;margin-right:.5rem"/></a>
+<a href="assets/img/add_user.png" class="img-link"><img src="assets/img/add_user.png" style="max-width:100%;height:90px;margin-right:.5rem" /></a>
+<a href="assets/img/role.png" class="img-link"><img src="assets/img/role.png" style="max-width:100%;height:90px;margin-right:.5rem" /></a>
+<a href="assets/img/logs.png" class="img-link"><img src="assets/img/logs.png" style="max-width:100%;height:90px;margin-right:.5rem" /></a>
+<a href="assets/img/theme_red.png" class="img-link"><img src="assets/img/theme_red.png" style="max-width:100%;height:90px;margin-right:.5rem" /></a>
+<a href="assets/img/dashboard.png" class="img-link"><img src="assets/img/dashboard.png" style="max-width:100%;height:90px;margin-right:.5rem" /></a>
 
 ## Features
 
-* Configurable [backend theme](https://sebastienheyd.github.io/boilerplate/howto/change-theme) and [components](https://sebastienheyd.github.io/boilerplate/components/) for [AdminLTE 3](https://adminlte.io/docs/3.0/)
-* [Text generation with GPT in TinyMCE](https://sebastienheyd.github.io/boilerplate/howto/gpt) with the OpenAI API 
+* Configurable [backend theme](/howto/change-theme) and [components](/components/) for [AdminLTE 3](https://adminlte.io/docs/3.0/)
+* [Text generation with GPT in TinyMCE](/howto/gpt) with the OpenAI API 
+* [Customizable dashboard](/dashboard) with widgets
 * Css framework [Bootstrap 4](https://getbootstrap.com/)
 * Icons by [Font Awesome 5](https://fontawesome.com/)
 * Role-based permissions support by [santigarcor/laratrust](https://github.com/santigarcor/laratrust)
@@ -49,4 +51,5 @@ Other packages to extend the features :
 * Gravatar import by [creativeorange/gravatar](https://github.com/creativeorange/gravatar)
 * Default languages from [laravel-lang/lang](https://github.com/Laravel-Lang/lang)
 * Javascript session keep-alive
+* Dark mode
 * [Localized](https://github.com/sebastienheyd/boilerplate/tree/master/src/resources/lang)

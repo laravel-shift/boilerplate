@@ -9,6 +9,8 @@ nav_order: 10
 
 You may use Laravel's Eloquent Model, Query Builder or Collection as data source for your dataTables.
 
+---
+
 ## Eloquent
 
 ```php
@@ -26,6 +28,8 @@ class ExampleDatatable extends Datatable
 }
 ```
 
+---
+
 ## Query Builder
 
 ```php
@@ -42,6 +46,8 @@ class ExampleDatatable extends Datatable
     //...
 }
 ```
+
+---
 
 ## Collection
 
@@ -63,6 +69,8 @@ class ExampleDatatable extends Datatable
 }
 ```
 
+---
+
 ## Array
 
 ```php
@@ -82,6 +90,8 @@ class ExampleDatatable extends Datatable
     //...
 }
 ```
+
+---
 
 ## API
 
@@ -117,6 +127,8 @@ class ExampleDatatable extends Datatable
 }
 ```
 
+---
+
 ## Passing parameters
 
 Sometimes you need to pass some parameters to the ajax call that retrieves the data. To do that, you can pass the parameters 
@@ -142,6 +154,8 @@ class ExampleDatatable extends Datatable
     //...
 }
 ```
+
+---
 
 ## Next step
 

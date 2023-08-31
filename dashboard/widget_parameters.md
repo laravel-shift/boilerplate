@@ -11,6 +11,8 @@ nav_order: 20
 
 After generating a widget using the artisan command, you can edit its files. [By following the generation example](generate_widget.md), we obtain the following class:
 
+---
+
 ## Widget class
 
 ```php
@@ -48,6 +50,8 @@ class MyAwesomeWidget extends Widget
     }
 }
 ```
+
+---
 
 ## Properties
 

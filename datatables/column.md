@@ -279,6 +279,8 @@ Hide the column.
 ->hidden()
 ```
 
+---
+
 ## Next step
 
 > [See button class](button)
